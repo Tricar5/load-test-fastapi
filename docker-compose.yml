@@ -1,0 +1,13 @@
+version: '3'
+services:
+
+  app:
+    container_name: test_api
+    build:
+      context: .
+    networks: [ api_test_network ]
+    command: bash -c 'python -m app'
+    ports: [ 8000:8000 ]
+
+networks:
+  api_test_network:

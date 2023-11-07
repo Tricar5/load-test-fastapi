@@ -1,0 +1,16 @@
+{
+  "a": "somedata",
+  "b": 3,
+  "c": {
+    "always": "three",
+    "key_new": 234,
+    "add_dict": {
+      "last": 1,
+      "values": [
+        1,
+        2,
+        3
+      ]
+    }
+  }
+}
