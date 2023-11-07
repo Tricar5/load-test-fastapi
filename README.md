@@ -19,6 +19,7 @@ brew install postman
 brew install artillery
 ```
 
+[Инструмент](https://www.artillery.io/docs)
 
 ### Запуск
 
@@ -34,6 +35,8 @@ artillery report ./tests/test-run.json
 
 ## WRK
 
+[Инструмент](https://github.com/wg/wrk)
+
 ### Установка
 
 ```shell
@@ -47,6 +50,8 @@ wrk -c200 -t1 -d3s http://localhost:8000/test -s ./tests/wrk/body_req.lua
 ```
 
 ## K6
+
+[Инструмент](https://k6.io/)
 
 ### Установка
 
